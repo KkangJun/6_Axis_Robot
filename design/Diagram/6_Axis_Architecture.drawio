@@ -1,0 +1,64 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.9 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.9">
+  <diagram name="Page-1" id="90a13364-a465-7bf4-72fc-28e22215d7a0">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" style=";html=1;" />
+        <mxCell id="1" style=";html=1;" parent="0" />
+        <mxCell id="9I4r3BeHMfNcQFGO_Nmi-2" value="Input&lt;div&gt;(Bluetooth Receive)&lt;/div&gt;&lt;div&gt;(External voice)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="590" y="430" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9I4r3BeHMfNcQFGO_Nmi-3" value="Bluetooth IT&lt;div&gt;Task&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="590" y="510" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9I4r3BeHMfNcQFGO_Nmi-5" value="Get Voice Commend&lt;div&gt;Task&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="940" y="510" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9I4r3BeHMfNcQFGO_Nmi-11" value="Motor Control Task" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="590" y="690" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-lnT9tSTLxlNkGkjXrbs-1" value="Data Parsing&lt;div&gt;Task&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="590" y="610" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hqwk6Rc57cyY_3ZJ0Lh1-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=5;endArrow=block;endFill=1;fillColor=#1ba1e2;strokeColor=#006EAF;" parent="1" source="9I4r3BeHMfNcQFGO_Nmi-2" target="9I4r3BeHMfNcQFGO_Nmi-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="828" y="600" as="sourcePoint" />
+            <mxPoint x="740" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RchIRvwMZl18u0ZWxZ8b-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=5;endArrow=block;endFill=1;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="9I4r3BeHMfNcQFGO_Nmi-2" target="9I4r3BeHMfNcQFGO_Nmi-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="987" y="610" as="sourcePoint" />
+            <mxPoint x="877" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RchIRvwMZl18u0ZWxZ8b-2" value="Voice Commend IT&lt;div&gt;Task&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="610" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RchIRvwMZl18u0ZWxZ8b-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=5;endArrow=block;endFill=1;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="9I4r3BeHMfNcQFGO_Nmi-3" target="-lnT9tSTLxlNkGkjXrbs-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="860" y="615" as="sourcePoint" />
+            <mxPoint x="750" y="665" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RchIRvwMZl18u0ZWxZ8b-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=5;endArrow=block;endFill=1;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="9I4r3BeHMfNcQFGO_Nmi-5" target="RchIRvwMZl18u0ZWxZ8b-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="665" y="580" as="sourcePoint" />
+            <mxPoint x="665" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RchIRvwMZl18u0ZWxZ8b-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=5;endArrow=block;endFill=1;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="-lnT9tSTLxlNkGkjXrbs-1" target="9I4r3BeHMfNcQFGO_Nmi-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="910" y="610" as="sourcePoint" />
+            <mxPoint x="800" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RchIRvwMZl18u0ZWxZ8b-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=5;endArrow=block;endFill=1;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="RchIRvwMZl18u0ZWxZ8b-2" target="9I4r3BeHMfNcQFGO_Nmi-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="610" as="sourcePoint" />
+            <mxPoint x="890" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

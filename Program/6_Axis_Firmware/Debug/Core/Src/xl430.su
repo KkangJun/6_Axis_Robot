@@ -1,0 +1,9 @@
+../Core/Src/xl430.c:10:6:update_crc	536	static
+../Core/Src/xl430.c:59:6:xl430Cmd	24	static
+../Core/Src/xl430.c:88:6:xl430SetID	24	static
+../Core/Src/xl430.c:97:6:xl430SetBaudRate	24	static
+../Core/Src/xl430.c:106:6:xl430TorqueEnable	24	static
+../Core/Src/xl430.c:115:6:xl430GoalPos	32	static
+../Core/Src/xl430.c:130:13:xl430GoalPosReg	24	static
+../Core/Src/xl430.c:142:13:xl430RegAction	8	static
+../Core/Src/xl430.c:161:6:xl430ProfVelo	24	static

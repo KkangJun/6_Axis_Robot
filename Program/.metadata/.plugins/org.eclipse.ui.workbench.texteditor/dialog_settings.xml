@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<item key="selection" value="EEPROM_BUSY"/>
+		<list key="findhistory">
+			<item value="EEPROM_BUSY"/>
+			<item value="at24"/>
+			<item value="event_flags"/>
+			<item value="PosSaveDataParsing"/>
+			<item value="posData"/>
+			<item value="MG4005"/>
+			<item value="MG4005MultiLoop2"/>
+			<item value="posSingleData"/>
+		</list>
+		<list key="replacehistory">
+		</list>
+	</section>
+</section>

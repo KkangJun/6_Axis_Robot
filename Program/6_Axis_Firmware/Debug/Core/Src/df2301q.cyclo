@@ -1,0 +1,6 @@
+../Core/Src/df2301q.c:10:6:DF2301QGetCMDID	2
+../Core/Src/df2301q.c:17:6:DF2301QPlayByCMDID	1
+../Core/Src/df2301q.c:24:6:DF2301QGetWakeTime	1
+../Core/Src/df2301q.c:29:6:DF2301QSetWakeTime	1
+../Core/Src/df2301q.c:36:6:DF2301QSetVolume	3
+../Core/Src/df2301q.c:49:6:DF2301QSetMuteMode	2
