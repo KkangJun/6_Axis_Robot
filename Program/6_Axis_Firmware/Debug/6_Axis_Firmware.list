@@ -3729,8 +3729,8 @@ void MG4005Commend(uint8_t id, uint8_t cmd, uint8_t *data) {
  8001bee:	4807      	ldr	r0, [pc, #28]	; (8001c0c <MG4005Commend+0x9c>)
  8001bf0:	f000 fefc 	bl	80029ec <HAL_CAN_AddTxMessage>
 
-	osDelay(10);
- 8001bf4:	200a      	movs	r0, #10
+	osDelay(15);
+ 8001bf4:	200f      	movs	r0, #15
  8001bf6:	f006 f8f1 	bl	8007ddc <osDelay>
 }
  8001bfa:	bf00      	nop

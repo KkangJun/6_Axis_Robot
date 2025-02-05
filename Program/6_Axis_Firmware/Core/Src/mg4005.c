@@ -43,7 +43,7 @@ void MG4005Commend(uint8_t id, uint8_t cmd, uint8_t *data) {
 	canTxMailbox = HAL_CAN_GetTxMailboxesFreeLevel(&hcan2);
 	HAL_CAN_AddTxMessage(&hcan2, &canTxHeader, canTxData, &canTxMailbox);
 
-	osDelay(10);
+	osDelay(15);
 }
 
 void MG4005Off(uint8_t id) {
