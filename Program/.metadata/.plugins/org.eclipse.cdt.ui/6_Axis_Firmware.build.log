@@ -1,7 +1,6 @@
-14:34:55 **** Incremental Build of configuration Debug for project 6_Axis_Firmware ****
+10:17:54 **** Build of configuration Debug for project 6_Axis_Firmware ****
 make -j16 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
 ../Core/Src/main.c: In function 'PosSetDataParsing':
 ../Core/Src/main.c:601:42: warning: pointer targets in passing argument 1 of 'strtoul' differ in signedness [-Wpointer-sign]
   601 |         data->pos1 = (int32_t) (strtoul(p->pos1, NULL, 10) - MG4005_ID1_OFFSET);
@@ -342,11 +341,11 @@ Finished building target: 6_Axis_Firmware.elf
 arm-none-eabi-size   6_Axis_Firmware.elf 
 arm-none-eabi-objdump -h -S  6_Axis_Firmware.elf  > "6_Axis_Firmware.list"
    text	   data	    bss	    dec	    hex	filename
-  53604	    116	  21364	  75084	  1254c	6_Axis_Firmware.elf
+  53588	    116	  21364	  75068	  1253c	6_Axis_Firmware.elf
 Finished building: default.size.stdout
  
 Finished building: 6_Axis_Firmware.list
  
 
-14:34:56 Build Finished. 0 errors, 35 warnings. (took 961ms)
+10:17:55 Build Finished. 0 errors, 35 warnings. (took 972ms)
 

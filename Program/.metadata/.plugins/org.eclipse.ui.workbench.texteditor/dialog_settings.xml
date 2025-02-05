@@ -4,8 +4,9 @@
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="EEPROM_BUSY"/>
+		<item key="selection" value="AT24"/>
 		<list key="findhistory">
+			<item value="AT24"/>
 			<item value="EEPROM_BUSY"/>
 			<item value="at24"/>
 			<item value="event_flags"/>
@@ -13,7 +14,6 @@
 			<item value="posData"/>
 			<item value="MG4005"/>
 			<item value="MG4005MultiLoop2"/>
-			<item value="posSingleData"/>
 		</list>
 		<list key="replacehistory">
 		</list>

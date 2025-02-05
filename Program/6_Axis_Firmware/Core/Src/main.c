@@ -989,7 +989,7 @@ void DataParse(void *argument)
 			} else if (!(strcmp(ble_it.cmd, "SAV"))) {
 				// eeprom write
 				uint8_t parse_idx = ble_it.idx - 48;
-				uint8_t addr = (parse_idx - 0x05) * 12;
+				uint8_t addr = parse_idx * 12;
 				uint8_t data[12] = {0x00};
 
 				PosSaveDataParsing(&ble_it, data);
@@ -1003,7 +1003,7 @@ void DataParse(void *argument)
 				uint8_t data[12] = {0x00};
 
 				for (int i = parse_idx; i < 4; i++) {
-					addr = (i - 0x05) * 12;
+					addr = i * 12;
 					next_addr = addr + 12;
 
 					AT24Read(next_addr, data, 12);
